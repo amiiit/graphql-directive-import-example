@@ -1,0 +1,13 @@
+# import-schema.graphql uses import and so fails with: Error: Directive entity: Couldn't find type entity in any of the schemas
+# foobar.graphql doesn't use import and succeeds with the directives
+
+schema: schema-import.graphql
+overwrite: true
+generates:
+  ./generated.d.ts:
+    plugins:
+      - add: // tslint:disable
+      - typescript-common
+      - typescript-server
+      - typescript-mongodb
+      - typescript-resolvers

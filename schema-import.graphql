@@ -1,0 +1,7 @@
+# import Foo from 'schema-foo.graphql'
+# import Bar from 'schema-bar.graphql'
+
+type Query {
+    foos: [Foo]
+    bars: [Bar]
+}

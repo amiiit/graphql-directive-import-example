@@ -1,0 +1,21 @@
+{
+  "name": "graphql-directive-import-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.1.1",
+    "graphql-code-generator": "^0.16.0"
+  },
+  "scripts": {
+    "codegen-with-import": "gql-gen -c codegen-with-import.yml",
+    "codegen-no-import": "gql-gen -c codegen-no-import.yml"
+  },
+  "devDependencies": {
+    "graphql-codegen-add": "^0.16.0",
+    "graphql-codegen-typescript-common": "^0.16.0",
+    "graphql-codegen-typescript-mongodb": "^0.16.0",
+    "graphql-codegen-typescript-resolvers": "^0.16.0",
+    "graphql-codegen-typescript-server": "^0.16.0"
+  }
+}

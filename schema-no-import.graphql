@@ -1,0 +1,13 @@
+type Foo @entity {
+    id: ID!
+    foo: String
+}
+type Bar {
+    id: ID!
+    bar: String
+}
+
+type Query {
+    foos: [Foo]
+    bars: [Bar]
+}
