@@ -5,7 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "graphql": "^14.1.1",
-    "graphql-code-generator": "^0.16.0"
+    "graphql-code-generator": "^0.18.2"
   },
   "scripts": {
     "codegen-with-import": "gql-gen -c codegen-with-import.yml",
